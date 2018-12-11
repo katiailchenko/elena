@@ -66,10 +66,16 @@ a {
 	text-transform: uppercase;
 	display: inline-block;
 	margin-left: 40px;
+	transition: text-shadow .2s;
 }
 
 .top_menu a:first-child {
 	margin-left:0;
+}
+
+.top_menu a:hover {
+	border-bottom: 1px solid #fff;
+	text-shadow: 0 0 2px #fff;
 }
 
 h1 {
@@ -121,6 +127,11 @@ h1 {
 	display: block;
 	letter-spacing: .02em;
 	text-align: center;
+	transition: background-color .4s;
+}
+
+.button:hover {
+	background-color: #2aab87;
 }
 
 .header_button {
@@ -155,6 +166,14 @@ h1 {
 .icon_top {
 	color: #50c3af;
 	font-size: 30px;
+	transform: scale(1) translateZ(0);
+	transition: color 1s linear, transform 1s linear; 
+}
+
+.icon_top:hover {
+	color: #cc66a4;
+	transform: scale(1.3) translateZ(0);
+	transition: color .5s linear, transform .5s linear;
 }
 
 h2,
@@ -221,6 +240,11 @@ h3 {
 
 .middle_content .button {
 	background-color: #d2d5da;
+	transition: background-color 0.4s;
+}
+
+.middle_content .button:hover {
+	background-color: #2aab87;
 }
 
 span {
@@ -246,9 +270,15 @@ span {
 	padding-bottom: 30px;
 }
 
-.privilege .check,
-.check span {
+.privilege .check{
 	color: #50c3af;
+	transition: border-bottom .2s, border-top .2s, color .4s;
+}
+
+.privilege .check:hover {
+	color: #2aab87;
+	border-bottom: 1px solid #2aab87;
+	border-top: 1px solid #2aab87;
 }
 
 .extra {
@@ -300,6 +330,12 @@ span {
 
 .brand a {
 	margin-bottom: 25px;
+	transition: border-bottom .4s; 
+}
+
+.brand a:hover {
+	border-bottom: 1px solid rgba(255, 255, 255, .4);
+
 }
 
 footer {
@@ -327,6 +363,11 @@ footer {
 	color: #b5b7b9;
 	font-size: 13px;
 	margin-left: 5px;
+	transition: color .4s;
+}
+
+.soc_link:hover {
+	color: #2aab87;
 }
 
 .soc_link:fist-child {
