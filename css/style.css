@@ -341,14 +341,6 @@ footer {
 	padding: 20px 0;
 }
 
-.social_contact {
-	padding-top: 0;
-}
-
-.footer_content {
-	display: flex;	
-}
-
 .copyright p {
 	font-size: 13px;
 }
@@ -368,26 +360,8 @@ footer {
 	color: #2aab87;
 }
 
-.soc_link:fist-child {
+.soc_link:first-child {
 	margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
