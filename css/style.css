@@ -70,6 +70,7 @@ a {
 	display: inline-block;
 	margin-left: 40px;
 	transition: text-shadow .2s;
+	border-bottom: 1px solid transparent;
 }
 
 .top_menu a:first-child {
