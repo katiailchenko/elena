@@ -71,7 +71,7 @@ a {
 	text-transform: uppercase;
 	display: inline-block;
 	margin-left: 40px;
-	transition: text-shadow .2s;
+	transition: text-shadow .4s, border-bottom .4s;
 	border-bottom: 1px solid transparent;
 }
 
