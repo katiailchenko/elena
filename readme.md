@@ -1,4 +1,4 @@
 # Elena
 
 
-[DEMO DRAFT](https://katiailchenko.github.io/elena/index.html)
+[DEMO](https://katiailchenko.github.io/elena/index.html)
